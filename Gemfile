@@ -23,7 +23,7 @@ group :development do
   gem 'rails_layout'
 end
 group :development, :test do
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', require: false
   gem 'rspec-rails'
 end
 group :test do
